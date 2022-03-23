@@ -11,3 +11,4 @@ Clone the github respository to your own machine using git@github.com:thefishua/
 >> npm install
 >> npm start
 ```
+View the website on http://localhost:3000/ 
