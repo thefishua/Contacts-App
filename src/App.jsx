@@ -11,7 +11,7 @@ function App() {
                     <input 
                     type="text"
                     className="search"
-                    placeholder="type here to filter..."
+                    placeholder="Search..."
                     />
                 </form>
             </section>
