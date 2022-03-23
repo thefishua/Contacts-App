@@ -1,12 +1,13 @@
+/* Background colour for the application */
 .background {
     background:rgb(243 244 246);
 }
-
+/* Navigation bar colour */
 .topnav {
     overflow: hidden;
     background-color: #e9e9e9;
 }
-  
+/* Navigation bar text */
 .topnav a {
     font-family: 'Helvetica', 'Arial', sans-serif;
     float: left;
@@ -18,7 +19,7 @@
     font-size: 17px;
     
 }
-  
+
 .topnav a:hover {
     background-color: #ddd;
     color: black;
@@ -28,7 +29,7 @@
     background-color: #2196F3;
     color: white;
 }
-  
+/* Responsive navigation bar depending on screen changes */
 @media screen and (max-width: 700px) {
     .topnav a, .topnav input[type=text] {
         float: none;
@@ -42,7 +43,7 @@
         border: 1px solid #ccc;
     }
 }
-
+/* Search bar formatting */
 .search{
     float: right;
     margin-top: .5rem;
@@ -52,13 +53,13 @@
     border: none;
     font-size: 17px;
 }
-
+/* Grid for contact cards */
 .grid-container {
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
 }
-
+/* Responsive grid container based on screen changes */
 @media screen and (max-width: 1350px) { 
     .grid-container {
         padding: 20px;
@@ -66,7 +67,7 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
-
+/* Responsive grid container based on screen changes */
 @media screen and (max-width: 700px) { 
     .grid-container {
         padding: 20px;

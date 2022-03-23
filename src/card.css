@@ -1,3 +1,4 @@
+/* Card formatting */
 .card {
     background-color: white;
     height: 25rem;
@@ -5,7 +6,7 @@
     box-shadow:  0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     padding-top: 1.75rem;
 }
-
+/* Picture within the card formatting */
 .picture {
     display: flex;
     max-width: 24rem;
@@ -13,18 +14,18 @@
     padding: 1.5rem;
     border-radius: 9999px;
 }
-
+/* Text formating */
 .person-detail {
     font-family: 'Helvetica', 'Arial', sans-serif;
     text-align: center;
     margin-top: 20px; 
 }
-
+/* Fullname formatting in the card */
 .name {
     font-size: 18px;
     font-weight: bold;
 }
-
+/* Description formatting in the card */
 .content-detail {
     font-size: 14px;
 }
